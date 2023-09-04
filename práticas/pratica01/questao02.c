@@ -8,7 +8,8 @@ int main() {
 
   int area = base * altura/2;
 
-  printf("A area é %i\n", area);
+  printf("A area é %d\n", area);
+
   
   return 0;
 }
