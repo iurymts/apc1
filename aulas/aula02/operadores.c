@@ -30,3 +30,22 @@ int main()
 
     return 0;
 }
+
+// operadores relacionais
+
+int menor_que = 1 < 0; // 0 - falso; 1 - verdadeiro 
+int menor_igual = 1 <= 0;
+int maior_que = 1 > 0;
+int maior_igual = 1 >= 0;
+int igual_a = 1 == 0;
+int diferente = 1 != 0;
+
+// operadores logicos 
+
+int e = 0 < 1 && 1 < 10; // 0 < 1 < 10; 0 && 7 = 0
+int ou = 0 < 1 || 1 > 10; // 0 < 1, 1 > 10; ? = 1
+int nao = !(0 < 1); // !0 = 1; !1 =0;
+
+return 0;
+
+}
